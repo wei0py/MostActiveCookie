@@ -1,5 +1,3 @@
-from gc import get_count
-from sys import get_coroutine_origin_tracking_depth
 from unittest import result
 from utils import *
 

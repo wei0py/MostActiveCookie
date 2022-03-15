@@ -21,7 +21,7 @@ def read_csv_log(log_file):
     else:
         dict_log = {}
         header = next(data)
-        count = 0
+        count = 1
         for line in data:
             count += 1
             try:

@@ -1,4 +1,3 @@
-from unittest import result
 from utils import *
 
 class CookieProcessor:

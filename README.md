@@ -29,4 +29,7 @@ Output:
 ```
 AtY0laUfhglK3lC7
 ```
-
+For testing, you can run:
+```
+$ python test.py
+```

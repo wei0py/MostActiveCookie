@@ -14,7 +14,7 @@ def valid_date(date):
 
 def read_csv_log(log_file):
     try:
-        f = open(log_file)
+        f = open(log_file,"r")
         data = csv.reader(f)
     except OSError:
         print('cannot open', log_file)
@@ -39,5 +39,7 @@ def read_csv_log(log_file):
                     dict_log[date] = {cookie:1}
             except:
                 print(log_file+" has wrong format at line "+str(count))
+
+        f.close()
         return dict_log
 
